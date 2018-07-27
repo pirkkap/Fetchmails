@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <title>JIRA Email Fetcher</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="fmail.js"></script>
 </head>
+
 <body>
-    <h1>JavaScript with REST</h1>
+    <script src="fmail.js"></script>
+    <div class="container">
+        <h1> This application fetches user email addresses from JIRA with REST API </h1>
+        <div>
+            <form>
+                <div class="row">
+                    <div class="col">
+
+
+                        <input class="form-control" type="text" id="restinput" placeholder="REST CMD">
+
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Send command</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="restoutput">REST Output:</label>
+                    <textarea class="form-control" id="restoutput" rows="20"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div>
+        <p class="greeting-id">The ID is </p>
+        <p class="greeting-content">The content is </p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
